@@ -1,18 +1,24 @@
 <!--index.wxml-->
 <view class="container">
-  <view class='brands'>
-    <swiper class='banner' indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
+
+  <view class='banner'>
+    <swiper indicator-dots='true' autoplay='true' interval='3000' duration='1000'>
       <swiper-item>
     
       </swiper-item>
     </swiper>
   </view>
 
-  <view class='m-menu'>
-  
-  </view>
+  <view class='channel'></view>
 
-  <view class='a-brand'></view>
+  <view class='brands'></view>
 
+  <view class='newGoods'></view>
+
+  <view class='hotGoods'></view>
+
+  <view class='topic'></view>
+
+  <view class='floorGoods'></view>
 
 </view>

@@ -4,8 +4,13 @@ const app = getApp()
 
 Page({
   data: {
+    banner:[],
+    channels:[],
     brands:[],
-    channels:[]
+    newGoods:[],
+    hotGoods:[],
+    topics:[],
+    floorGoods:[]
   },
   //事件处理函数
   bindViewTap: function() {
